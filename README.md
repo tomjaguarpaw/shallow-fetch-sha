@@ -14,7 +14,7 @@ you@local:~$ git checkout $SHA
 
 This utility is shipped as a standalone binary as well as a container. It is built using [go-git](https://github.com/go-git/go-git), a pure Go implementation of git.
 
-**Note:** this is only compatible with Git servers >= 2.50, since they must support (and enable) `uploadpack.allowReachableSHA1InWant`.
+**Note:** this is only compatible with Git servers >= 2.5, since they must support (and enable) `uploadpack.allowReachableSHA1InWant`.
 
 ## Usage
 
